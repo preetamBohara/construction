@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------------------
 * Author        : Awaiken
-* Template Name : Builtup - Construction HTML Template
+* Template Name : Innovative Structure 
 * File          : CSS File
 * Version       : 1.0
 * ---------------------------------------------------------------------------------------- */
@@ -1612,9 +1612,15 @@ header.main-header .header-sticky.active{
 }
 
 .contact-info-content h3{
-	font-size: 24px;
+	font-size: 22px;
+	/* font-size: 24px; */
 	font-weight: 700;
 	color: var(--white-color);
+}
+
+.breadcrumb-item.active::before {
+	/* display: none !important; */
+	content: "/" !important;
 }
 
 .contact-info-image{
